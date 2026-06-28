@@ -31,8 +31,8 @@ public:
     virtual void write(std::ostream& os) const = 0;
     virtual void read(std::istream& is) = 0;
 private:
-    IdItem m_nId;
     ItemType m_eType;
+    IdItem m_nId;
 };
 
 using PtrBaseItem = std::unique_ptr<BaseItem>;

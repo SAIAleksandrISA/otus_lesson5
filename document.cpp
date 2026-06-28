@@ -1,5 +1,6 @@
 #include "document.hpp"
 #include "view.hpp"
+#include <algorithm>
 
 MyDocument::MyDocument()
 {
